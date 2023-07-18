@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-notifyd" version="1.0">
+  <property name="applications" type="empty">
+    <property name="known_applications" type="array">
+      <value type="string" value="discord"/>
+      <value type="string" value="nm-applet"/>
+      <value type="string" value="notify-send"/>
+      <value type="string" value="numix-folders"/>
+      <value type="string" value="org.freedesktop.network-manager-applet"/>
+      <value type="string" value="org.qbittorrent.qBittorrent"/>
+      <value type="string" value="org.xfce.Thunar"/>
+      <value type="string" value="SteamTinkerLaunch"/>
+      <value type="string" value="vlc"/>
+      <value type="string" value="Xfce volume control"/>
+      <value type="string" value="Xfce4-notifyd settings"/>
+      <value type="string" value="xfce4-power-manager"/>
+      <value type="string" value="xfce4-settings-helper"/>
+    </property>
+  </property>
+  <property name="log-max-size-enabled" type="bool" value="true"/>
+  <property name="primary-monitor" type="uint" value="0"/>
+  <property name="notify-location" type="uint" value="2"/>
+  <property name="date-time-format" type="int" value="0"/>
+  <property name="date-time-custom-format" type="string" value="%a %H:%M:%S"/>
+  <property name="log-level" type="uint" value="0"/>
+  <property name="log-level-apps" type="uint" value="0"/>
+  <property name="plugin" type="empty">
+    <property name="show-in-menu" type="string" value="show-all"/>
+    <property name="log-only-today" type="bool" value="false"/>
+  </property>
+  <property name="do-not-disturb" type="bool" value="true"/>
+  <property name="theme" type="string" value="Qogir-Dark"/>
+  <property name="initial-opacity" type="double" value="1"/>
+</channel>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=683;y=754"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="size" type="uint" value="35"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="1"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="9"/>
+        <value type="int" value="15"/>
+        <value type="int" value="14"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+      </property>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.15686274509803921"/>
+        <value type="double" value="0.16470588235294117"/>
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="enable-struts" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="yad"/>
+        <value type="string" value="psensor"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="notes"/>
+        <value type="string" value="discord"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="requesting an ethernet network address for “wired connection 1”…"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="vlc"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="hidden-items" type="array">
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
+      <property name="hidden-legacy-items" type="array">
+      </property>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="tooltip-format" type="string" value="%x"/>
+      <property name="digital-layout" type="uint" value="1"/>
+      <property name="digital-date-font" type="string" value="Sans Bold 10"/>
+      <property name="digital-time-font" type="string" value="Sans Bold 10"/>
+      <property name="digital-date-format" type="string" value="%Y %B %d"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-1" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="brave.instance10078;brave.instance10439;brave.instance10568;brave.instance10652;brave.instance10954;brave.instance10964;brave.instance11196;brave.instance11314;brave.instance11410;brave.instance11522;brave.instance11619;brave.instance11751;brave.instance11896;brave.instance11911;brave.instance11976;brave.instance12346;brave.instance12375;brave.instance12390;brave.instance12450;brave.instance12460;brave.instance1254;brave.instance1256;brave.instance1267;brave.instance12828;brave.instance12884;brave.instance12985;brave.instance13125;brave.instance13288;brave.instance13397;brave.instance13413;brave.instance13477;brave.instance13964;brave.instance1458;brave.instance14588;brave.instance14755;brave.instance14787;brave.instance14861;brave.instance14955;brave.instance15126;brave.instance15279;brave.instance15301;brave.instance15375;brave.instance15501;brave.instance15565;brave.instance15630;brave.instance16233;brave.instance16312;brave.instance16489;brave.instance16526;brave.instance16558;brave.instance16667;brave.instance17141;brave.instance17182;brave.instance17408;brave.instance17429;brave.instance17509;brave.instance1754;brave.instance18028;brave.instance18151;brave.instance18264;brave.instance18267;brave.instance18287;brave.instance1831;brave.instance18317;brave.instance18523;brave.instance18561;brave.instance18863;brave.instance1937;brave.instance19530;brave.instance1961;brave.instance19680;brave.instance19883;brave.instance20109;brave.instance20685;brave.instance20725;brave.instance2075;brave.instance20752;brave.instance20851;brave.instance2087;brave.instance2094;brave.instance21087;brave.instance21353;brave.instance2137;brave.instance21627;brave.instance21820;brave.instance21935;brave.instance22066;brave.instance22421;brave.instance22593;brave.instance22649;brave.instance22700;brave.instance22779;brave.instance22900;brave.instance2296;brave.instance23012;brave.instance23043;brave.instance23046;brave.instance23104;brave.instance23121;brave.instance23126;brave.instance23193;brave.instance23314;brave.instance23819;brave.instance24229;brave.instance24586;brave.instance24606;brave.instance2478;brave.instance24821;brave.instance24924;brave.instance25220;brave.instance25393;brave.instance25464;brave.instance25491;brave.instance25566;brave.instance25668;brave.instance25905;brave.instance25912;brave.instance25925;brave.instance26291;brave.instance26540;brave.instance26715;brave.instance26858;brave.instance26909;brave.instance26928;brave.instance27018;brave.instance27316;brave.instance2744;brave.instance27671;brave.instance27744;brave.instance28150;brave.instance28267;brave.instance28268;brave.instance28274;brave.instance28397;brave.instance28767;brave.instance29147;brave.instance29190;brave.instance29213;brave.instance29398;brave.instance29513;brave.instance29530;brave.instance29571;brave.instance29714;brave.instance2972;brave.instance30080;brave.instance30120;brave.instance30132;brave.instance30149;brave.instance30175;brave.instance30184;brave.instance30604;brave.instance30641;brave.instance30678;brave.instance30951;brave.instance30967;brave.instance31019;brave.instance31826;brave.instance31849;brave.instance32048;brave.instance32239;brave.instance32380;brave.instance32390;brave.instance3246;brave.instance32476;brave.instance32705;brave.instance32868;brave.instance3299;brave.instance33158;brave.instance33248;brave.instance33252;brave.instance33288;brave.instance33387;brave.instance33507;brave.instance33676;brave.instance3380;brave.instance33917;brave.instance33992;brave.instance3405;brave.instance34063;brave.instance34216;brave.instance3424;brave.instance34255;brave.instance34402;brave.instance3445;brave.instance34681;brave.instance34760;brave.instance34776;brave.instance3478;brave.instance35227;brave.instance35466;brave.instance35757;brave.instance35931;brave.instance36299;brave.instance36512;brave.instance36660;brave.instance37062;brave.instance37154;brave.instance37599;brave.instance3784;brave.instance3797;brave.instance38063;brave.instance38485;brave.instance38703;brave.instance38801;brave.instance38898;brave.instance39198;brave.instance39286;brave.instance4005;brave.instance40087;brave.instance40518;brave.instance40771;brave.instance41098;brave.instance41360;brave.instance41604;brave.instance41779;brave.instance42226;brave.instance42386;brave.instance4245;brave.instance4246;brave.instance42524;brave.instance42662;brave.instance42665;brave.instance42791;brave.instance43024;brave.instance4327;brave.instance43464;brave.instance43650;brave.instance44005;brave.instance4431;brave.instance44846;brave.instance45382;brave.instance45429;brave.instance45562;brave.instance4585;brave.instance46407;brave.instance46587;brave.instance4689;brave.instance47458;brave.instance47905;brave.instance48527;brave.instance48625;brave.instance48765;brave.instance49048;brave.instance49366;brave.instance49401;brave.instance49771;brave.instance4978;brave.instance50261;brave.instance50478;brave.instance50560;brave.instance50597;brave.instance5100;brave.instance5133;brave.instance5141;brave.instance5195;brave.instance5327;brave.instance5378;brave.instance53803;brave.instance54977;brave.instance55133;brave.instance55542;brave.instance5702;brave.instance58209;brave.instance5882;brave.instance5924;brave.instance5961;brave.instance6047;brave.instance6212;brave.instance6233;brave.instance6301;brave.instance6335;brave.instance6350;brave.instance6444;brave.instance6490;brave.instance6492;brave.instance6512;brave.instance6639;brave.instance6749;brave.instance6791;brave.instance6854;brave.instance68994;brave.instance6992;brave.instance6995;brave.instance6996;brave.instance7142;brave.instance7338;brave.instance7410;brave.instance7474;brave.instance7596;brave.instance7612;brave.instance7704;brave.instance7980;brave.instance8040;brave.instance8060;brave.instance8216;brave.instance8420;brave.instance8590;brave.instance8609;brave.instance8837;brave.instance8861;brave.instance8867;brave.instance8877;brave.instance8888;brave.instance8984;brave.instance9067;brave.instance9118;brave.instance9142;brave.instance9219;brave.instance9296;brave.instance9314;brave.instance9362;brave.instance9417;brave.instance9555;brave.instance9566;brave.instance9683;brave.instance9758;brave.instance9856;brave.instance9919;brave.instance9992;chromium.instance10034;chromium.instance101220;chromium.instance10134;chromium.instance10272;chromium.instance10383;chromium.instance10687;chromium.instance10735;chromium.instance107873;chromium.instance11011;chromium.instance11059;chromium.instance11083;chromium.instance11198;chromium.instance11292;chromium.instance11299;chromium.instance11357;chromium.instance11395;chromium.instance114856;chromium.instance11617;chromium.instance11752;chromium.instance117837;chromium.instance11831;chromium.instance11832;chromium.instance11989;chromium.instance12019;chromium.instance12029;chromium.instance12089;chromium.instance12118;chromium.instance12204;chromium.instance12273;chromium.instance12287;chromium.instance12335;chromium.instance12355;chromium.instance12366;chromium.instance12454;chromium.instance12490;chromium.instance12514;chromium.instance12563;chromium.instance12586;chromium.instance12597;chromium.instance12690;chromium.instance1289;chromium.instance12967;chromium.instance13051;chromium.instance1311;chromium.instance13305;chromium.instance13359;chromium.instance13371;chromium.instance13454;chromium.instance1349;chromium.instance13493;chromium.instance135149;chromium.instance13693;chromium.instance138677;chromium.instance13887;chromium.instance13971;chromium.instance13997;chromium.instance141172;chromium.instance14153;chromium.instance14191;chromium.instance14336;chromium.instance14383;chromium.instance14424;chromium.instance14506;chromium.instance14544;chromium.instance1468;chromium.instance1474;chromium.instance15082;chromium.instance15285;chromium.instance15483;chromium.instance156538;chromium.instance15719;chromium.instance1586;chromium.instance15877;chromium.instance15903;chromium.instance1594;chromium.instance16058;chromium.instance16060;chromium.instance16206;chromium.instance16254;chromium.instance1637;chromium.instance16436;chromium.instance16704;chromium.instance16711;chromium.instance16741;chromium.instance1688;chromium.instance16884;chromium.instance17047;chromium.instance1715;chromium.instance17153;chromium.instance1719;chromium.instance17192;chromium.instance1741;chromium.instance17481;chromium.instance17550;chromium.instance17675;chromium.instance1769;chromium.instance17722;chromium.instance17773;chromium.instance17925;chromium.instance1806;chromium.instance18071;chromium.instance18080;chromium.instance1809;chromium.instance18428;chromium.instance18445;chromium.instance18447;chromium.instance18572;chromium.instance18679;chromium.instance18716;chromium.instance18812;chromium.instance18831;chromium.instance1893;chromium.instance19177;chromium.instance1919;chromium.instance19190;chromium.instance19341;chromium.instance1940;chromium.instance1942;chromium.instance19450;chromium.instance19495;chromium.instance19564;chromium.instance19792;chromium.instance1980;chromium.instance19873;chromium.instance19896;chromium.instance19970;chromium.instance20003;chromium.instance20176;chromium.instance20184;chromium.instance20244;chromium.instance20356;chromium.instance20399;chromium.instance20412;chromium.instance20416;chromium.instance20510;chromium.instance20529;chromium.instance21052;chromium.instance21060;chromium.instance2112;chromium.instance2122;chromium.instance21299;chromium.instance21381;chromium.instance21495;chromium.instance2168;chromium.instance21715;chromium.instance21764;chromium.instance21828;chromium.instance21903;chromium.instance21924;chromium.instance2194;chromium.instance21968;chromium.instance22016;chromium.instance2202;chromium.instance22043;chromium.instance22121;chromium.instance22227;chromium.instance22293;chromium.instance22311;chromium.instance22530;chromium.instance22571;chromium.instance2265;chromium.instance22667;chromium.instance22696;chromium.instance22724;chromium.instance22775;chromium.instance22782;chromium.instance22904;chromium.instance22926;chromium.instance22973;chromium.instance23014;chromium.instance23074;chromium.instance23095;chromium.instance2324;chromium.instance23314;chromium.instance23379;chromium.instance23395;chromium.instance23412;chromium.instance23430;chromium.instance2347;chromium.instance23490;chromium.instance23518;chromium.instance2355;chromium.instance2363;chromium.instance23642;chromium.instance23669;chromium.instance23724;chromium.instance2379;chromium.instance2383;chromium.instance23877;chromium.instance23912;chromium.instance2394;chromium.instance23962;chromium.instance24090;chromium.instance2417;chromium.instance24237;chromium.instance24342;chromium.instance24356;chromium.instance24408;chromium.instance24678;chromium.instance24688;chromium.instance24733;chromium.instance2475;chromium.instance24780;chromium.instance24796;chromium.instance2498;chromium.instance24982;chromium.instance25073;chromium.instance2509;chromium.instance2520;chromium.instance25356;chromium.instance25441;chromium.instance25738;chromium.instance25890;chromium.instance26020;chromium.instance26150;chromium.instance26203;chromium.instance26277;chromium.instance2631;chromium.instance26363;chromium.instance2640;chromium.instance2642;chromium.instance26433;chromium.instance26480;chromium.instance26716;chromium.instance26750;chromium.instance26793;chromium.instance26804;chromium.instance26954;chromium.instance27147;chromium.instance27148;chromium.instance27183;chromium.instance27189;chromium.instance27460;chromium.instance27592;chromium.instance27705;chromium.instance27786;chromium.instance27876;chromium.instance27908;chromium.instance27919;chromium.instance27922;chromium.instance28256;chromium.instance28419;chromium.instance28479;chromium.instance28555;chromium.instance2864;chromium.instance28641;chromium.instance28643;chromium.instance28771;chromium.instance28843;chromium.instance2891;chromium.instance29032;chromium.instance29051;chromium.instance29106;chromium.instance29220;chromium.instance29245;chromium.instance2966;chromium.instance29663;chromium.instance297575;chromium.instance29983;chromium.instance30017;chromium.instance30066;chromium.instance301719;chromium.instance302380;chromium.instance3035;chromium.instance3042;chromium.instance30423;chromium.instance3050;chromium.instance30531;chromium.instance30586;chromium.instance30590;chromium.instance30710;chromium.instance30792;chromium.instance30898;chromium.instance3093;chromium.instance3126;chromium.instance31371;chromium.instance3143;chromium.instance31517;chromium.instance31632;chromium.instance317298;chromium.instance31742;chromium.instance31874;chromium.instance31917;chromium.instance31992;chromium.instance32102;chromium.instance32673;chromium.instance32683;chromium.instance32726;chromium.instance32762;chromium.instance3280;chromium.instance32921;chromium.instance33006;chromium.instance3301;chromium.instance33131;chromium.instance33171;chromium.instance33654;chromium.instance33660;chromium.instance33671;chromium.instance33774;chromium.instance34048;chromium.instance34386;chromium.instance34540;chromium.instance34618;chromium.instance3474;chromium.instance3480;chromium.instance34801;chromium.instance34809;chromium.instance34864;chromium.instance35088;chromium.instance35140;chromium.instance35192;chromium.instance35258;chromium.instance3542;chromium.instance35421;chromium.instance35678;chromium.instance35892;chromium.instance36079;chromium.instance36102;chromium.instance3630;chromium.instance3632;chromium.instance36530;chromium.instance36632;chromium.instance36728;chromium.instance3680;chromium.instance3708;chromium.instance37098;chromium.instance37127;chromium.instance3740;chromium.instance37455;chromium.instance37520;chromium.instance37949;chromium.instance37993;chromium.instance38082;chromium.instance3826;chromium.instance3833;chromium.instance38357;chromium.instance38373;chromium.instance38393;chromium.instance38506;chromium.instance3867;chromium.instance38778;chromium.instance38779;chromium.instance38850;chromium.instance39107;chromium.instance39269;chromium.instance39292;chromium.instance39493;chromium.instance39625;chromium.instance3967;chromium.instance39713;chromium.instance4008;chromium.instance4016;chromium.instance40422;chromium.instance40450;chromium.instance40662;chromium.instance4079;chromium.instance40812;chromium.instance40922;chromium.instance40935;chromium.instance40947;chromium.instance41081;chromium.instance41084;chromium.instance41116;chromium.instance41447;chromium.instance4145;chromium.instance41458;chromium.instance41610;chromium.instance41638;chromium.instance4167;chromium.instance41671;chromium.instance41811;chromium.instance42002;chromium.instance42394;chromium.instance4271;chromium.instance4278;chromium.instance43046;chromium.instance4306;chromium.instance43318;chromium.instance4355;chromium.instance43597;chromium.instance43754;chromium.instance43840;chromium.instance43960;chromium.instance44089;chromium.instance4441;chromium.instance44458;chromium.instance4460;chromium.instance4461;chromium.instance44846;chromium.instance45031;chromium.instance45231;chromium.instance45407;chromium.instance4554;chromium.instance45773;chromium.instance45805;chromium.instance4601;chromium.instance46184;chromium.instance46279;chromium.instance46621;chromium.instance46664;chromium.instance46867;chromium.instance47017;chromium.instance4716;chromium.instance47562;chromium.instance47637;chromium.instance47703;chromium.instance47720;chromium.instance4785;chromium.instance47934;chromium.instance48047;chromium.instance48369;chromium.instance48591;chromium.instance48687;chromium.instance48764;chromium.instance4877;chromium.instance4928;chromium.instance4983;chromium.instance49876;chromium.instance4992;chromium.instance49960;chromium.instance50008;chromium.instance5020;chromium.instance50302;chromium.instance50340;chromium.instance50470;chromium.instance50588;chromium.instance50829;chromium.instance50951;chromium.instance5097;chromium.instance50993;chromium.instance51006;chromium.instance51123;chromium.instance51216;chromium.instance51489;chromium.instance51679;chromium.instance51789;chromium.instance52086;chromium.instance5213;chromium.instance52180;chromium.instance52203;chromium.instance5244;chromium.instance52499;chromium.instance52523;chromium.instance52775;chromium.instance52826;chromium.instance53425;chromium.instance53537;chromium.instance5356;chromium.instance53581;chromium.instance53625;chromium.instance53627;chromium.instance53874;chromium.instance53991;chromium.instance5429;chromium.instance54547;chromium.instance5457;chromium.instance5462;chromium.instance5474;chromium.instance54749;chromium.instance5485;chromium.instance54873;chromium.instance54921;chromium.instance55290;chromium.instance55435;chromium.instance5621;chromium.instance5628;chromium.instance56563;chromium.instance57428;chromium.instance57544;chromium.instance57610;chromium.instance5768;chromium.instance5826;chromium.instance58698;chromium.instance58778;chromium.instance59174;chromium.instance59318;chromium.instance5946;chromium.instance59614;chromium.instance5966;chromium.instance6025;chromium.instance6042;chromium.instance60439;chromium.instance6066;chromium.instance60663;chromium.instance6071;chromium.instance6120;chromium.instance61327;chromium.instance6141;chromium.instance6176;chromium.instance61938;chromium.instance6203;chromium.instance62148;chromium.instance62209;chromium.instance62360;chromium.instance6237;chromium.instance6269;chromium.instance6287;chromium.instance62870;chromium.instance62883;chromium.instance6326;chromium.instance63363;chromium.instance63555;chromium.instance63565;chromium.instance63599;chromium.instance64283;chromium.instance64468;chromium.instance64876;chromium.instance6503;chromium.instance6509;chromium.instance6528;chromium.instance65460;chromium.instance65461;chromium.instance65724;chromium.instance6588;chromium.instance6608;chromium.instance66102;chromium.instance6616;chromium.instance6639;chromium.instance66631;chromium.instance67411;chromium.instance67944;chromium.instance6819;chromium.instance68652;chromium.instance6917;chromium.instance6946;chromium.instance70884;chromium.instance71623;chromium.instance73766;chromium.instance7383;chromium.instance7392;chromium.instance7407;chromium.instance7463;chromium.instance7488;chromium.instance75064;chromium.instance75139;chromium.instance75567;chromium.instance7570;chromium.instance76066;chromium.instance76512;chromium.instance76788;chromium.instance7687;chromium.instance77103;chromium.instance77358;chromium.instance77500;chromium.instance7804;chromium.instance7834;chromium.instance78550;chromium.instance78721;chromium.instance7891;chromium.instance7913;chromium.instance79175;chromium.instance80434;chromium.instance8117;chromium.instance8177;chromium.instance8185;chromium.instance8320;chromium.instance8362;chromium.instance8541;chromium.instance8724;chromium.instance8743;chromium.instance8855;chromium.instance8930;chromium.instance8932;chromium.instance8977;chromium.instance9146;chromium.instance9206;chromium.instance9309;chromium.instance9412;chromium.instance9479;chromium.instance9530;chromium.instance9557;chromium.instance9593;chromium.instance9718;chromium.instance9779;chromium.instance9833;chromium.instance98409;vlc;vlc.instance16377;vlc.instance23012;vlc.instance23030;vlc.instance23975;vlc.instance24872;vlc.instance24980;vlc.instance26112;vlc.instance26443;vlc.instance27227;vlc.instance27332;vlc.instance27559;vlc.instance28176;vlc.instance28384;vlc.instance28554;vlc.instance28670;vlc.instance28919;vlc.instance28999;vlc.instance29204;vlc.instance29290;vlc.instance29340;vlc.instance29574;vlc.instance29672;vlc.instance30710;vlc.instance30942;vlc.instance31204;vlc.instance33696"/>
+      <property name="play-sound" type="bool" value="false"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="enable-wnck" type="bool" value="false"/>
+      <property name="enable-multimedia-keys" type="bool" value="false"/>
+      <property name="enable-mpris" type="bool" value="true"/>
+      <property name="blacklisted-players" type="string" value="vlc"/>
+      <property name="known-players" type="string" value="Brave;VLC media player"/>
+    </property>
+    <property name="plugin-7" type="string" value="whiskermenu"/>
+    <property name="clipman" type="empty">
+      <property name="settings" type="empty">
+        <property name="enable-actions" type="bool" value="false"/>
+      </property>
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-15" type="string" value="separator"/>
+  </property>
+</channel>
